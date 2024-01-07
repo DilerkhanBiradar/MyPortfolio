@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo">
+           <h2>Portfolio</h2>
+        </div>
+        <div>
+            <ul class="links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">
+            Diler Khan
+        </div>
+        <div class="menu">
+            <div class="icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+            <div class="menu-links">
+                <ul>
+                <li><a href="#" onclick="toogleMenu()">About</a></li>
+                <li><a href="#"onclick="toogleMenu()">Contact</a></li>
+                <li><a href="#"onclick="toogleMenu()">Projects</a></li>
+                <li><a href="#"onclick="toogleMenu()">Experience</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="container">
+            <img src="./profile_photo.jpg" alt="not found" class="image">
+        </div>
+        <div class="text">
+            <p clas="p1">Hello, I'm</p>
+            <h1 class="title">Diler Khan .R. Biradar</h1>
+            <p class="p2">Web Designer</p>
+            <div class="btn_cont">
+                <button class="btn btn-color-2" onclick="window.open('resume.pdf')">
+                    Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'"> Contact Info</button>
+        </div>
+        </div>
+    </section><br>
+    <section id="about">
+        <p class="title">About Me</p><br>
+        <div class="container1">
+            <div>
+                <div class="about_container">
+                    <div class="details_cont">
+                        <h3>Experience</h3>
+                        <p>Fresher</p>
+                        <p>Web Designer</p><br>
+                        <h3>Education</h3>
+                        <p>Currently pursuing B.E in Computer Science and Engineering</p><br>
+                        <p>
+                            <b>"</b>&ensp;Enthusiastic recent graduate with a Bachelor's in Computer Science. Eager to apply theoretical knowledge gained through coursework in real-world scenarios. Proficient in programming languages such as Python and Java, with a strong foundation in problem-solving and teamwork and also have quality skills in frontend development(HTML,CSS and JS). Seeking an entry-level role where I can contribute, learn, and grow while making a meaningful impact.&ensp;<b>"</b>
+                        </p><br>
+                        <h3>Hobbies</h3>
+                        <p>Cricket</p>
+                        <p>Cycling</p>
+                        <p>Cooking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br><br>
+    <section id="experience">
+        <p class="title">Experience</p>
+        <div class="exp_detail_cont">
+            <div class="about_container">
+                <div class="details-containers">
+                    <h2 class="sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Excellent</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Very Good</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Excellent</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Very Good</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./mark.jpg" alt="not found" class="L-icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="projects">
+        <p class="title">Projects</p><br>
+        <table>
+            <th>
+                <td>
+                    <div class="exp_detail_cont">
+                        <div class="container">
+                        <div class="details-containers color-container">
+                            <div class="article-container">
+                                <img src="./project-1.jpg" alt="not found" class="project-img"style="height: 175px;">
+                            </div>
+                            <h2 class="sub-title project-title">Simple Calculator</h2>
+                            <div class="btn_cont">
+                                <button class="btn btn-color-2 project-btn" href="#">Github</button>
+                            </div>
+                        </div></div>
+                    </div>
+                </td>
+            </th>
+            <th>
+                <td>
+                    <div class="exp_detail_cont">
+                        <div class="container">
+                        <div class="details-containers color-container">
+                            <div class="article-container">
+                                <img src="./project-2.jpg" alt="not found" class="project-img" style="height: 175px;">
+                            </div>
+                            <h2 class="sub-title project-title">Grade Calculator</h2>
+                            <div class="btn_cont">
+                                <button class="btn btn-color-2 project-btn" href="#">Github</button>
+                            </div>
+                        </div></div>
+                    </div>
+                </td>
+            </th>
+            <th>
+                <td>
+                    <div class="exp_detail_cont">
+                        <div class="container">
+                        <div class="details-containers color-container">
+                            <div class="article-container">
+                                <img src="./project-3.jpg" alt="not found" class="project-img" style="height: 175px;">
+                            </div>
+                            <h2 class="sub-title project-title">Tic Tac Game</h2>
+                            <div class="btn_cont">
+                                <button class="btn btn-color-2 project-btn" href="#">Github</button>
+                            </div>
+                        </div></div>
+                    </div>
+                </td>
+            </th>
+        </table>   
+    </section>
+    <section id="contact">
+        <p class="title">Reach Me</p>
+        <div class="contact-info-upper">
+            <div class="contact-info-cont">
+                <img src="./mail-icon.jpg" alt="not found" class="icon contact-icon">
+                <p><a href="mailto:biradardilerkhan@gmail.com">biradardilerkhan@gmail.com</a></p>
+            </div>
+            <div class="contact-info-cont ">
+                <img src="./linkedin.jpg" alt="not found" class="icon contact-icon linked">
+                <p><a href="https://www.linkedin.com/in/diler-khan-r-biradar-279831275">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-cont">
+                <ul class="links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p id="ftr">copyright &#169; 2023 Diler Khan .R. Biradar. All rights preserved.</p>
+    </footer>
+    <script src="porfolio.js"></script>
+</body>
+</html>
